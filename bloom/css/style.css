@@ -1,0 +1,157 @@
+*{
+  outline: none;
+  
+}
+
+
+
+
+html, body{
+background-color: orange;
+margin:0px;
+padding:0px;
+overflow:hidden;
+height:100%;
+font-family: "Lobster"; 
+
+}
+
+
+#intro #text {
+  font-size: 56px;
+  font-weight: 800;
+  width: 10.em;
+  height: 1.5em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+#intro #intro-button {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+}
+#intro #intro-button #start {
+  font-size: 25px;
+  background: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: Courgette;
+  width: 275px;
+  height: 70px;
+  display: none;
+  cursor: pointer;
+}
+
+
+#menu {
+  position: absolute;
+  right: 25px;
+  top: 10px;
+}
+#menu ul {
+  list-style: none;
+}
+#menu ul li {
+  margin: 5px 0px;
+  text-align: right;
+  display: none;
+}
+#menu ul li a {
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: Lobster;
+  text-decoration: none;
+  color: black;
+}
+
+#menu ul li a:hover {
+  border-left:5px solid black;
+  padding-left:5px;
+  
+  
+}
+ 
+#menu ul li.active a {
+  border-bottom:5px solid black;
+  
+  
+}
+
+#menu ul li.active a:hover {
+  border-left:none;
+  
+  
+}
+.container-content{
+  display: none;
+  
+}
+
+#what_we_do img {
+  margin: 185px 0px 0px 60px;
+  border: 10px  solid black;
+  border-radius: 3px;
+  width: 400px;
+}
+h3.title {
+  position: absolute;
+  top: 4px;
+  left: 500px;
+  font-size: 80px;
+  text-transform: uppercase;
+}
+#what_we_do div {
+  width: 650px;
+  position: absolute;
+  top: 170px;
+  left: 520;
+}
+
+#our_team {
+  margin-left:70px
+  
+}
+
+#our_team .members {
+  float: left;
+  margin:5px 10px
+  padding: 5px 5px 15px 5px;
+  border-radius:3px;
+  border: 5px solid black;
+  
+}
+
+
+#our_team .members.top240{
+  margin-top: 250px;
+  
+  margin-right: 5px;
+}
+#our_team .members.top170{
+  margin-top:170px;
+
+  margin-right: 5px;
+}
+
+#our_team .members img{
+  width:230px;
+  
+}
+
+#our_team .members h3{
+  font-size:17px;
+  font-weight:600;
+  margin: 5px 0px 2px 0px;
+}
+
+#our_team .members span{
+  font-size:12px;
+  font-style: italic;
+}
